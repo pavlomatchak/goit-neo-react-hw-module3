@@ -6,7 +6,7 @@ const Contact = ({ filter, onFilterChange }) => {
     <div className={css.search}>
       <label>
         Find contacts by name
-        <input type="text" value={filter} onChange={(e) => onFilterChange(e.target.value)} />
+        <input type="text" value={filter} onChange={e => onFilterChange(e.target.value)} />
       </label>
     </div>
   );
